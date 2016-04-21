@@ -1,0 +1,33 @@
+<?php
+
+// This is the primary configuration for switchports. 
+// It holds the list of switches, the passwords and 
+// community strings, and so on. 
+
+$switches = array(); 
+
+$readCom = "public"; 
+$writeCom = "private"
+
+
+// This is the token configured in the outgoing slack.com slash command
+// If you're not using a slack integration, just leave it commented.
+// $slackToken="token-goes-here"
+// 
+// These are the usernames in slack that can (only) query ports. These
+// people will not be able to change ports, only query their status. 
+// $slackQueryUsers=array(
+//		"user1",
+//		"user2",
+// ); 
+//
+// These users are able to change ports. Changing ports implies that they 
+// can also query ports, so there's no need to declare them twice. 
+// $slackChangePortUsers=array(
+// 	"user3",
+//		"user4",
+// ); 
+
+
+
+?>
